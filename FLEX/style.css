@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar .email {
+    margin-right: 10px;
+}
+
+/* =================== */
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0.5em;
+    flex-wrap: wrap;
+}
+.singleCard{
+    border: 2px solid black;
+    width: 250px;
+    text-align: center;
+    padding: 1em;
+    border-radius: 20px;
+}
+.singleCard img{
+    border-radius: 50px;
+    width: 5.5em;
+}
+.singleCard button{
+    border: 0;
+    border: 1px solid red;
+    background-color: red;
+    padding: 0.1875em;
+    color: whitesmoke;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+
+/* ========================================= */
+
+.footer{
+    position: relative;
+    top: 100px;
+    margin: 10px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+}
+.first p{
+    max-width: 8.25em;
+}
+
+.contact{
+    list-style: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* div{
+    background-color: black;
+}
+.navbar{
+    display: inline;
+    background-color: black;
+    color: white;
+}
+.navbar li{
+    display: inline;
+    list-style: none;
+}
+.navbar .email{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    float: right;
+}
+.navbar .phone{
+    margin-left: 10px;
+} */
